@@ -34,6 +34,7 @@ exports.handler = function (context, event, callback) {
   let sortDirection =  event.sortDirection ? event.sortDirection : 'asc'; 
 
   console.log("event is ==> ", event);
+  console.log("context is ==> ", context);
   console.log("doSort is ==> ", doSort);
   console.log("sortDirection is ==> ", sortDirection);
   console.log("numberRecords is ==> ", numberRecords);
